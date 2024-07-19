@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--primary-color);
+    font-family: 'Poppins';
+}
+
+:root {
+    --primary-color: #303030;
+    --secondary-color: #fffffff3;
+    --header-bg: #ffffff;
+    --container-bg: #ffffff;
+    --text-emphasis: #000000;
+    --border-divider: #222222a2;
+    --text-light: #2222223f;
+    --box-shadow: rgba(0, 0, 0, 0.281);
+    --box-shadow-light: rgba(0, 0, 0, 0.281);
+    --text-success: #00ac00;
+    --border-container: #2222223f;
+    --btn-add: #000000;
+    --red: #fd1a1a;
+    --yellow: #f0c63b;
+}
+
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    src: url('./Material_Symbols_Outlined/MaterialSymbolsOutlined-VariableFont_FILL,GRAD,opsz,wght.ttf') format('truetype');
+}
+
+.text-success {
+    color: var(--text-success);
+}
+
+.text-emphasis {
+    color: var(--text-emphasis);
+    font-weight: bold;
+}

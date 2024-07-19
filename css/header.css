@@ -1,0 +1,27 @@
+header {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: var(--primary-color);
+    background-image: url('../assets/img/background-header.png');
+    background-size: contain;
+    box-shadow: 0 0 10px 0 var(--box-shadow);
+    overflow: hidden;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.logo {
+    width: 6%;
+}
+
+.logo-text>p {
+    font-size: 2dvh;
+    text-wrap: nowrap;
+}

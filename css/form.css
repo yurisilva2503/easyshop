@@ -1,0 +1,64 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 1.5dvh;
+    gap: .2rem;
+}
+
+.form-group>input {
+    width: 100%;
+    padding: .5rem;
+    border-radius: 3px;
+    border: 1px solid var(--border-container);
+    font-size: 1.5dvh;
+}
+
+.form-group>input:focus {
+    outline: none;
+    border: 1px solid;
+}
+
+.form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+.form-button>button {
+    width: 50%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 3px;
+    border: none;
+    font-size: 1.5dvh;
+    cursor: pointer;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) .1s;
+}
+
+.form-button>button:hover {
+    transform: scale(1.02);
+}
+
+.btn-add {
+    background-color: var(--btn-add);
+    color: var(--secondary-color);
+}
+
+#btn-install {
+    width: 5%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) .1s;
+    background: var(--btn-add);
+    color: var(--secondary-color);
+}
+
+#btn-install:hover {
+    transform: scale(1.02);
+}

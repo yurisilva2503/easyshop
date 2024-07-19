@@ -1,0 +1,51 @@
+{
+	"name": "EasyShop",
+	"short_name": "EasyShop",
+	"description": "Uma aplicação para a criação de uma lista de compras de maneira rápida e fácil.",
+	"start_url": "./index.html",
+	"display": "standalone",
+	"orientation": "portrait",
+	"lang": "pt-BR",
+    "theme_color": "white",
+    "background_color": "white",
+	"id": "./index.html",
+	"prefer_related_applications": false,
+
+	"icons": [
+		{
+			"src": "./assets/img/icon144.png",
+			"sizes": "144x144",
+			"type": "image/png"
+		},
+		{
+			"src": "./assets/img/icon192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "./assets/img/icon512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"screenshots": [
+        {
+          "src": "./assets/img/screenshot.jpeg",
+          "sizes": "1600x805",
+          "type": "image/png",
+          "form_factor": "wide"
+        },
+        {
+          "src": "./assets/img/screenshot_2.png",
+          "sizes": "480x640",
+          "type": "image/png",
+          "form_factor": "narrow"
+        }
+    ],
+	"protocol_handlers": [
+		{
+		  "protocol": "web+myprotocol",
+		  "url": "/?protocol=%s"
+		}
+	]
+}
